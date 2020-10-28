@@ -38,5 +38,5 @@ docker run --rm -p 8888:8888 movie-recommender python app.py
 ```
 
 ## References
-https://www.pybootcamp.com/blog/how-to-containerize-python-application/
-https://www.pybootcamp.com/blog/how-to-write-dockerfile-python-apps/
+* https://www.pybootcamp.com/blog/how-to-containerize-python-application/
+* https://www.pybootcamp.com/blog/how-to-write-dockerfile-python-apps/
