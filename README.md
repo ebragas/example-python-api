@@ -19,7 +19,7 @@ Quick build (local development)
 docker build -t movie-recommender .
 ```
 
-Build using GIT_HASH arg (automated builds).
+Build using `GIT_HASH` arg (automated builds).
 ```bash
 export GIT_HASH=$(git rev-parse HEAD)
 docker build --build_arg GIT_HASH=${GIT_HASH::7} -t movie-recommender .
