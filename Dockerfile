@@ -4,6 +4,8 @@ ARG GIT_HASH
 ENV GIT_HASH=${GIT_HASH:-dev}
 # "-dev" specifies the default
 
-COPY . /src
+WORKDIR /project
 
-RUN pip install -r /src/requirements.txt
+COPY . .
+
+RUN pip install -r requirements.txt
