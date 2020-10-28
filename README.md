@@ -32,7 +32,6 @@ Check git hash.
 docker run --rm movie-recommender env | grep GIT_HASH
 ```
 
-
 ### Run Docker image
 ```bash
 docker run --rm -p 8888:8888 movie-recommender python /src/app.py

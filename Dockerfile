@@ -6,6 +6,7 @@ ENV GIT_HASH=${GIT_HASH:-dev}
 
 WORKDIR /project
 
-COPY . .
-
+COPY requirements.txt ./
 RUN pip install -r requirements.txt
+
+COPY . .
